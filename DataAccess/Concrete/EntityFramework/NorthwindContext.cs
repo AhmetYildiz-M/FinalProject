@@ -7,7 +7,7 @@ using Entities.Concrete;
 namespace DataAccess.Concrete.EntityFramework
 {
     //Context : DB tablolari ile proje classlarini baglamak
-    public class NortwindContext : DbContext
+    public class NorthwindContext : DbContext
     {
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
